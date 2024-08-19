@@ -7,7 +7,7 @@
 - Alterar as regras de entrada do security group com SSH para "meu IP" via console
 
 2) Após o apply:
-- Enviar o locustfile.py e auto_test.py:
+- Enviar [locustfile.py e auto_test.py](https://github.com/camilamedeir0s/tests-locust-sw):
 
   $ scp -i caminho/my-key.pem ./locustfile.py ubuntu@<<endereço-ec2>>:/home/ubuntu
 
